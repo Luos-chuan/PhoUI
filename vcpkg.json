@@ -1,0 +1,12 @@
+{
+  "name": "phoui",
+  "version": "0.1.0",
+  "dependencies" : [
+    "angle",
+    {
+      "name" : "skia",
+      "features" : ["png"]
+    },
+    "glfw3"
+  ]
+}

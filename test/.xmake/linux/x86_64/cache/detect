@@ -1,0 +1,210 @@
+{
+    find_package_linux_x86_64_fetch_package_system = {
+        ["vcpkg::angle_8bf41f00e33d407986a2e57849bedb96_release_latest_external"] = {
+            linkdirs = {
+                "/home/luoschuan/vcpkg/installed/x64-linux/lib",
+                "/home/luoschuan/vcpkg/installed/x64-linux/lib/pkgconfig/../../lib"
+            },
+            links = {
+                "EGL_angle",
+                "GLESv2_angle",
+                "z"
+            },
+            libfiles = {
+                "/home/luoschuan/vcpkg/installed/x64-linux/lib/ANGLE.a",
+                "/home/luoschuan/vcpkg/installed/x64-linux/lib/libEGL_angle.a",
+                "/home/luoschuan/vcpkg/installed/x64-linux/lib/libGLESv2_angle.a"
+            },
+            sysincludedirs = {
+                "/home/luoschuan/vcpkg/installed/x64-linux/include",
+                "/home/luoschuan/vcpkg/installed/x64-linux/lib/pkgconfig/../../include"
+            }
+        },
+        ["vcpkg::glfw3_8bf41f00e33d407986a2e57849bedb96_release_latest_external"] = {
+            linkdirs = "/home/luoschuan/vcpkg/installed/x64-linux/lib/pkgconfig/../../lib",
+            links = {
+                "glfw3",
+                "rt",
+                "lzma",
+                "bz2",
+                "exslt",
+                "xslt",
+                "xml2",
+                "m",
+                "dl",
+                "z"
+            },
+            sysincludedirs = {
+                "/home/luoschuan/vcpkg/installed/x64-linux/lib/pkgconfig/../../include",
+                "/home/luoschuan/vcpkg/installed/x64-linux/lib/pkgconfig/../../include/libxml2"
+            },
+            version = "3.5.1"
+        },
+        ["vcpkg::skia_f3b078ab85414c38b7a958c4eea5bc2f_release_latest_external"] = {
+            linkdirs = {
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../lib"
+            },
+            libfiles = {
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libbentleyottmann.a",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libjsonreader.a",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskia.a",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskottie.a",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskparagraph.a",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libsksg.a",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskshaper.a",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskunicode_core.a",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskunicode_icu.a",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libsvg.a"
+            },
+            sysincludedirs = {
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/bentleyottmann/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skottie/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skparagraph/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skplaintexteditor/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skresources/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/sksg/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skshaper/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skunicode/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/svg/include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/libpng16",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/harfbuzz",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/webp",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/pkgconf",
+                "/home/luoschuan/Projects/PhoUI/test/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/uuid"
+            },
+            links = {
+                "bentleyottmann",
+                "jsonreader",
+                "skia",
+                "skottie",
+                "skparagraph",
+                "sksg",
+                "skshaper",
+                "skunicode_core",
+                "skunicode_icu",
+                "svg",
+                "fontconfig",
+                "harfbuzz-subset",
+                "harfbuzz",
+                "webpdecoder",
+                "webpdemux",
+                "webpmux",
+                "webp",
+                "sharpyuv",
+                "icuio",
+                "icui18n",
+                "icuuc",
+                "icudata",
+                "stdc++",
+                "gcc_s",
+                "pthread",
+                "jpeg",
+                "turbojpeg",
+                "pkgconf",
+                "freetype",
+                "uuid",
+                "expat",
+                "brotlidec",
+                "brotlienc",
+                "brotlicommon",
+                "bz2",
+                "png16",
+                "m",
+                "z"
+            },
+            version = "140"
+        }
+    },
+    find_program_gcc_arch_x86_64_plat_linux_checktoolcxx = {
+        ["g++"] = "/usr/bin/g++"
+    },
+    ["detect.sdks.find_dotnet"] = {
+        dotnet = {
+            sdks = {
+                {
+                    directory = "/usr/share/dotnet/sdk/10.0.114",
+                    version = "10.0.114"
+                }
+            },
+            bindir = "/usr/bin",
+            runtimes = {
+                {
+                    name = "Microsoft.NETCore.App",
+                    version = "10.0.14"
+                }
+            },
+            sdkdir = "/usr/share/dotnet/sdk/10.0.114",
+            sdkver = "10.0.114",
+            version = "10.0.114"
+        }
+    },
+    ["lib.detect.has_flags"] = {
+        ["linux_x86_64_/usr/bin/g++__cxx_cxflags_-m64_-std=c++20"] = true,
+        ["linux_x86_64_/usr/bin/g++__cxx__-m64_-fPIC"] = true,
+        ["linux_x86_64_/usr/bin/g++__cxx_cxflags_-m64_-MMD -MF"] = true,
+        ["linux_x86_64_/usr/bin/g++__cxx_cxflags_-m64_-fdiagnostics-color=always"] = true,
+        ["linux_x86_64_/usr/bin/g++__cxx_cxflags_-m64_-Wno-gnu-line-marker -Werror"] = true
+    },
+    ["detect.sdks.find_vcpkgdir"] = "/home/luoschuan/vcpkg",
+    ["detect.sdks.find_ascend"] = {
+        ascend = false
+    },
+    ["core.tools.gcc.has_cflags"] = {
+        ["/usr/bin/g++_"] = {
+            ["-dumpspecs"] = true,
+            ["--version"] = true,
+            ["-dumpmachine"] = true,
+            ["-print-multi-lib"] = true,
+            ["--param"] = true,
+            ["-c"] = true,
+            ["-print-sysroot"] = true,
+            ["-Xpreprocessor"] = true,
+            ["-S"] = true,
+            ["-pass-exit-codes"] = true,
+            ["-dumpversion"] = true,
+            ["--target-help"] = true,
+            ["-Xassembler"] = true,
+            ["--help"] = true,
+            ["-print-libgcc-file-name"] = true,
+            ["-x"] = true,
+            ["-no-canonical-prefixes"] = true,
+            ["-print-multiarch"] = true,
+            ["-print-multi-directory"] = true,
+            ["-shared"] = true,
+            ["-save-temps"] = true,
+            ["-pipe"] = true,
+            ["-time"] = true,
+            ["-print-sysroot-headers-suffix"] = true,
+            ["-E"] = true,
+            ["-print-search-dirs"] = true,
+            ["-pie"] = true,
+            ["-v"] = true,
+            ["-print-multi-os-directory"] = true,
+            ["-Xlinker"] = true,
+            ["-B"] = true,
+            ["-o"] = true
+        }
+    },
+    find_programver = {
+        ["/usr/bin/dotnet"] = "10.0.114"
+    },
+    find_program = {
+        ["pkg-config"] = "/usr/bin/pkg-config",
+        gzip = "/usr/bin/gzip",
+        tar = "/usr/bin/tar",
+        dotnet = "/usr/bin/dotnet",
+        zig = false,
+        vcpkg = "/home/luoschuan/vcpkg/vcpkg",
+        gcc = "/usr/bin/gcc",
+        nim = false,
+        git = "/usr/bin/git",
+        ["/usr/bin/g++"] = "/usr/bin/g++"
+    },
+    find_program_gcc_arch_x86_64_plat_linux_checktoolar = {
+        ar = "/usr/bin/ar"
+    }
+}

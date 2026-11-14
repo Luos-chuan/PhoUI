@@ -1,0 +1,112 @@
+{
+    ["vcpkg::glfw3"] = {
+        __enabled = true,
+        __requirestr = "vcpkg::glfw3",
+        sysincludedirs = {
+            "/home/luoschuan/vcpkg/installed/x64-linux/lib/pkgconfig/../../include",
+            "/home/luoschuan/vcpkg/installed/x64-linux/lib/pkgconfig/../../include/libxml2"
+        },
+        version = "3.5.1",
+        links = {
+            "glfw3",
+            "rt",
+            "lzma",
+            "bz2",
+            "exslt",
+            "xslt",
+            "xml2",
+            "m",
+            "dl",
+            "z"
+        },
+        linkdirs = "/home/luoschuan/vcpkg/installed/x64-linux/lib/pkgconfig/../../lib"
+    },
+    skia = {
+        __requireconfs = {
+            configs = {
+                features = {
+                    "gl"
+                }
+            },
+            alias = "skia"
+        },
+        __requirestr = "vcpkg::skia",
+        version = "140",
+        sysincludedirs = {
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/bentleyottmann/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skottie/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skparagraph/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skplaintexteditor/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skresources/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/sksg/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skshaper/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/skunicode/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/include/skia/modules/svg/include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/libpng16",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/harfbuzz",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/webp",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/pkgconf",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../include/uuid"
+        },
+        libfiles = {
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libbentleyottmann.a",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libjsonreader.a",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskia.a",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskottie.a",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskparagraph.a",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libsksg.a",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskshaper.a",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskunicode_core.a",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libskunicode_icu.a",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/libsvg.a"
+        },
+        links = {
+            "bentleyottmann",
+            "jsonreader",
+            "skia",
+            "skottie",
+            "skparagraph",
+            "sksg",
+            "skshaper",
+            "skunicode_core",
+            "skunicode_icu",
+            "svg",
+            "fontconfig",
+            "harfbuzz-subset",
+            "harfbuzz",
+            "webpdecoder",
+            "webpdemux",
+            "webpmux",
+            "webp",
+            "sharpyuv",
+            "icuio",
+            "icui18n",
+            "icuuc",
+            "icudata",
+            "stdc++",
+            "gcc_s",
+            "pthread",
+            "jpeg",
+            "turbojpeg",
+            "pkgconf",
+            "freetype",
+            "uuid",
+            "expat",
+            "brotlidec",
+            "brotlienc",
+            "brotlicommon",
+            "bz2",
+            "png16",
+            "m",
+            "z"
+        },
+        __enabled = true,
+        linkdirs = {
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib",
+            "/home/luoschuan/Projects/PhoUI/build/.packages/v/vcpkg_skia/latest/f3b078ab85414c38b7a958c4eea5bc2f/vcpkg_installed/x64-linux/lib/pkgconfig/../../lib"
+        }
+    }
+}
